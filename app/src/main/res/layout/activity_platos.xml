@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/fondorestaurant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlatosActivity">
+
+    <!-- ALTURA-MARGEN DE ARRIBA -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="140dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView1"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/comi2"
+            android:layout_weight="2"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/TextViewHam"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textSize="12sp"
+                android:gravity="right"
+                android:text="@string/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+    <!-- Espacio entre las tarjetas -->
+<View
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:background="@android:color/white"
+android:layout_marginBottom="10dp"/>
+
+<com.google.android.material.card.MaterialCardView
+android:id="@+id/cardView2"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageView
+    android:src="@drawable/comi1"
+    android:layout_weight="2"
+    android:adjustViewBounds="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/TextViewPiz"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12sp"
+        android:gravity="right"
+        android:text="@string/pricePiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Espacio entre las tarjetas -->
+<View
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:background="@android:color/white"
+android:layout_marginBottom="10dp"/>
+
+<com.google.android.material.card.MaterialCardView
+android:id="@+id/cardView3"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageView
+    android:src="@drawable/comi3"
+    android:layout_weight="4"
+    android:adjustViewBounds="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/TextViewHue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12sp"
+        android:gravity="right"
+        android:text="@string/priceHue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="btn_Bienvenido">Bienvenidos</string>
+
+    <string name="btnPlatos">MENU</string>
+    <string name="btnBebidas">BEBIDAS</string>
+    <string name="btnGaleria">GALERIA</string>
+    <string name="btnEmpresa">EMPRESA</string>
+    <string name="btnMapa">MAPA</string>
+    <string name="btnPedido">CONTACTANOS</string>
+    <string name="btnUnete">¡TRABAJA CON NOSOTROS!</string>
+
+    <string name="TextViewHam"> HAMBURGUESA GOURMET</string>
+    <string name="price">Q55.00</string>
+    <string name="TextViewPiz"> PIZZA GOURMET</string>
+    <string name="pricePiz">Q80.00</string>
+    <string name="TextViewHue"> HUEVO GOURMET</string>
+    <string name="priceHue">Q35.00</string>
+
+    <string name="TextBebi"> COFEE GOURMET</string>
+    <string name="pricebebi1">Q10.00</string>
+    <string name="TextBebi2"> BEBIDAS GOURMET</string>
+    <string name="pricebebi2">Q30.00</string>
+    <string name="TextBebi3"> SODA GOURMET</string>
+    <string name="pricebebi3">Q15.00</string>
+
+    <string name="btnCamara">Camara</string>
+    <string name="btnCamara1">TOMAR FOTO</string>
+
+    <string name="TextViewEmpresa">Restaurante Guatemalteco, te ofrece una gran variedad de platillos. </string>
+    <string name="TextViewTIEMPOS">Tiempos: Desayuno-Almuerzo-Cena </string>
+    <string name="TextViewEmpresa1">Prop: Nayeli Urrutia-Manuel Monzón</string>
+    <string name="TextViewEmpresa2">¡HASTA LA PROXIMA INGENIERO!</string>
+    <string name="TextNom"> ESENCIA GOURMET </string>
+
+    <string name="TextTitulo">PERSONAL GOURMET</string>
+    <string name="TextNombre">Nombre</string>
+    <string name="TextNumero">Número</string>
+    <string name="TextEmail">Correo Electrónico</string>
+    <string name="TextEscolar">Nivel Escolar</string>
+    <string name="btnCrear">CREAR</string>
+    <string name="btnLeer">VER</string>
+    <string name="btnActualizar">ACTUALIZAR</string>
+    <string name="btnEliminar">ELIMINAR</string>
+
+
+</resources>

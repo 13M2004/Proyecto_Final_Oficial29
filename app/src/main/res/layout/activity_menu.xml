@@ -1,0 +1,101 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonodo1"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Fila 1 de botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPlatos"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/btnPlatos"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnBebidas"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/btnBebidas"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Fila 2 de botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGaleria"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/btnGaleria"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnEmpresa"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/btnEmpresa"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Fila 3 de botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMapa"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/btnMapa"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnPedido"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="@string/btnPedido"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!-- Trabaja con Nosotros -->
+        <Button
+            android:id="@+id/btnUnete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/btnUnete"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>
